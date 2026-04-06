@@ -1,0 +1,35 @@
+{
+    "Test2Py": {
+        "version": 1,
+        "language": "python",
+        "icon": "icons/icon.svg",
+        "uiName": "OgnTest2Py",
+        "description": "",
+        "categoryDefinitions": "config/CategoryDefinition.json",
+        "categories": ["extension:Category"],
+        "inputs": {
+            "inputAttribute1": {
+                "type": "int",
+                "uiName": "Excute",
+                "description": "",
+                "default": 0
+            },
+            "inputAttribute2": {
+                "type": "token",
+                "uiName": "Input 2",
+                "description": "",
+                "default": "Token1",
+                "metadata": {
+                    "allowedTokens": [ "Token1", "Token2", "Token3" ]
+                }
+            }
+        },
+        "outputs": {
+            "outputAttribute1": {
+                "type": "int",
+                "uiName": "Out",
+                "description": ""
+            }
+        }
+    }
+}
