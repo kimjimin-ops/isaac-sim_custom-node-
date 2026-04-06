@@ -66,4 +66,34 @@
     }
 }
 
+------------------------------------------------최종
+
+{
+    "Test2Py": {
+        "version": 1,
+        "language": "python",
+        "uiName": "OgnTest2Py",
+        "description": "",
+        "inputs": {
+            "excute": {
+                "type": "execution",
+                "uiName": "Excute",
+                "description": "",
+                "default": 0
+            },
+            "num_a": {
+                "type": "int",
+                "uiName": "Num A",
+                "description": "",
+                "default": 0
+            },
+            "num_b": {
+                "type": "int",
+                "uiName": "Num B",
+                "description": "",
+                "default": 0
+            }
+        }
+    }
+}
 
