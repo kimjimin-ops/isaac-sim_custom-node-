@@ -106,3 +106,33 @@ class OgnTest2Py:
             db.log_error(f"Computation error: {e}")
             return False
         return True
+
+
+
+-------------------------------------------최종
+
+import numpy
+
+class OgnTest2Py:
+
+    @staticmethod
+    def compute(db) -> bool:
+
+
+      try:
+          num_a = db.inputs.num_a
+          num_b = db.inputs.num_b
+          
+          print("Num A is", num_a)
+          print("Num B is", num_b)
+          
+          sum = num_a + num_b
+          
+          print("sum is", sum)
+          
+
+      except Exception as e:
+        db.log_error(str(e))
+        return False
+      
+      return True
